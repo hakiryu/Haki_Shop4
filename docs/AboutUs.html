@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Coffee Haven</title>
+
+  <link rel="stylesheet" href="AboutUs.css">
+  <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+
+  <style>
+    body {
+      background-color: #f8f3e7;
+      font-family: 'Georgia', serif;
+    }
+
+    .navbar {
+      background-color: #6f4e37;
+    }
+
+    .navbar-brand, .nav-link {
+      color: #f8f3e7 !important;
+    }
+
+    .navbar-brand:hover, .nav-link:hover {
+      color: #d4a373 !important;
+    }
+
+    h1 {
+      color: #6f4e37;
+      margin-top: 20px;
+    }
+
+    .card {
+      background-color: #fff8e1;
+      border: none;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-title {
+      color: #6f4e37;
+    }
+
+    .accordion-button {
+      background-color: #d4a373;
+      color: #fff;
+    }
+
+    .accordion-button:not(.collapsed) {
+      background-color: #6f4e37;
+      color: #fff;
+    }
+
+    .accordion-body {
+      background-color: #fff8e1;
+    }
+
+    footer {
+      background-color: #6f4e37;
+      color: #f8f3e7;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+    }
+
+    footer a {
+      color: #d4a373;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="Home.html">Coffee Haven</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="Home.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="Menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <h1 style="text-align: center;">About Us</h1>
+  <section style="text-align: center;"></section>
+  <div class="card mb-3" style="max-width: 540px; margin: auto;">
+    <div class="row g-0">
+      <div class="col-md-12"></div>
+        <div class="card-body">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Our Story</h5>
+          <p class="card-text">Coffee Haven began as a dream to create a cozy space where coffee lovers could gather, relax, and enjoy the finest brews. From humble beginnings, we’ve grown into a community hub for coffee enthusiasts.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="card mb-3" style="max-width: 540px; margin: auto;">
+      <div class="row g-0">
+        <div class="col-md-4">
+        
+        </div>
+        <div class="card mb-3" style="max-width: 540px; margin: auto;">
+          <div class="row g-0">
+          <div class="col-md-12">
+              <div class="card-body">
+                <h5 class="card-title">Our Philosophy</h5>
+                <p class="card-text">At Coffee Haven, we believe coffee is more than just a drink—it’s an experience. We are passionate about sourcing the finest beans, crafting the perfect cup, and creating a welcoming atmosphere for all.</p>
+              </div>
+          </div>
+          </div>
+        </div>
+    
+    
+
+    <!-- Accordion component -->
+    <div class="accordion accordion-flush" id="accordionFlushExample" style="max-width: 540px; margin: auto;">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            Core Values
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <ul>
+              <li>Quality – We are committed to delivering the best coffee experience.</li>
+              <li>Community – We believe in fostering connections and creating a welcoming space.</li>
+              <li>Sustainability – We prioritize eco-friendly practices and ethical sourcing.</li>
+              <li>Passion – We love coffee and strive to share that passion with every cup.</li>
+              <li>Inclusivity – Everyone is welcome at Coffee Haven.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Mission & Vision
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <p><strong>🎯 Mission:</strong> To create a haven for coffee lovers by offering exceptional coffee, warm hospitality, and a sense of community.</p>
+            <p><strong>🌍 Vision:</strong> To be recognized as a leading coffee shop that inspires connections, celebrates coffee culture, and promotes sustainability.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 Coffee Haven | <a href="Contact.html">Contact Us</a> | Follow us on <a href="#">Instagram</a>, <a href="#">Facebook</a></p>
+  </footer>
+
+  <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

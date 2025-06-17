@@ -1,0 +1,62 @@
+/* Button Group Styling */
+.btn-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.btngrp1 {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    font-family: 'Metal Mania', cursive; /* Pointy font */
+    color: #1e90ff; /* Dodger blue */
+    text-shadow: 0 0 4px #e65c00, 0 0 8px #e65c00; /* Subtle glowing effect with darker orange shadow */
+}
+
+.btngrp2 {
+    position: absolute;
+    right: 70%;
+    top: 20%;
+    font-family: 'Metal Mania', cursive; /* Pointy font */
+    color: #1e90ff; /* Dodger blue */
+    text-shadow: 0 0 4px #e65c00, 0 0 8px #e65c00; /* Subtle glowing effect with darker orange shadow */
+}
+    
+button {
+    background-color: #ecd6d2;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+button:active {
+    transform: scale(1.05);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.about-us-btn, .contact-btn {
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    font-family: 'Metal Mania', cursive;
+    color: #787d81;
+    text-shadow: 0 0 4px #928d8a, 0 0 8px #868584;
+}
+
+.about-us-btn {
+    top: 30%;
+}
+
+.contact-btn {
+    top: 40%;
+}
